@@ -14,7 +14,7 @@ In this app, you can:
 - Find comprehensive explanations about different locations in the game, especially the landmarks, and enjoy exploring the dark and mysterious world of Dark Souls.
 - Read engaging articles and interesting facts about the game world that enhance your experience.
 
-With Souls Master, everything you need for success in Dark Souls is at your fingertips! Have the necessary knowledge to play this series and join the ranks of professional players with our guidance. Download the app today and embark on your journey in the world of Dark Souls!
+With Souls Master, everything you need for success in Dark Souls is at your fingertips! Have the necessary knowledge to play this series and join the ranks of professional players with our guidance.
 
 ## Getting Started
 
