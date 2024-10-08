@@ -6,7 +6,7 @@ Are you looking for information and strategies to overcome the challenges of thi
 
 To play Dark Souls, you need deep knowledge and appropriate strategies to tackle various challenges and boss fights. Souls Master provides you with all this information.
 
-![Article Screen](https://github.com/ErfanManafi/souls-master/blob/master/article.png?raw=true)
+![Article Screen](https://github.com/ErfanManafi/souls-master/blob/master/article%20(1).png?raw=true)
 
 In this app, you can:
 
