@@ -7,4 +7,5 @@ class NamedRoute {
   static String categoryScreen = '/CategoryScreen';
   static String locationScreen = '/LocationScreen';
   static String locationListScreen = '/LocationListScreen';
+  static String sourceScreen = '/SourcesScreen';
 }

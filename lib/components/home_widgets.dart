@@ -35,7 +35,7 @@ Drawer buildDrawer(BuildContext context) {
       }
 
       return ListView(
-        padding: EdgeInsets.zero, // Remove any padding from the top
+        padding: EdgeInsets.zero,
         children: <Widget>[
           const DrawerHeader(
             decoration: BoxDecoration(
@@ -55,6 +55,26 @@ Drawer buildDrawer(BuildContext context) {
             ),
           ),
           // Static menu items
+
+          ListTile(
+            leading: const CircleAvatar(
+              radius: 16,
+              backgroundColor: Colors.white,
+              child: Icon(Icons.source_outlined),
+            ),
+            title: const Text(
+              'منابع',
+              style: TextStyle(color: Colors.white),
+            ),
+            onTap: () {
+              Get.offAndToNamed(NamedRoute.sourceScreen);
+            },
+          ),
+          const Divider(
+            endIndent: 30,
+            indent: 30,
+            color: Color.fromARGB(255, 107, 107, 107),
+          ),
           ListTile(
             leading: const CircleAvatar(
               radius: 16,

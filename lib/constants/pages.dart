@@ -8,6 +8,7 @@ import 'package:souls_master/view/location_list_screen.dart';
 import 'package:souls_master/view/location_screen.dart';
 import 'package:souls_master/view/main_screen.dart';
 import 'package:souls_master/view/poster_screen.dart';
+import 'package:souls_master/view/sources_screen.dart';
 import '../routes/named_route.dart';
 import '../view/splash_screen.dart';
 
@@ -48,6 +49,10 @@ class Pages {
         name: NamedRoute.categoryScreen,
         page: () => const CategoryScreen(),
         binding: MainScreenBinding(),
+      ),
+      GetPage(
+        name: NamedRoute.sourceScreen,
+        page: () => const SourcesScreen(),
       ),
     ];
   }
