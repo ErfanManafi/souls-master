@@ -13,47 +13,46 @@ import '../routes/named_route.dart';
 import '../view/splash_screen.dart';
 
 class Pages {
-  List<GetPage> getPages() {
-    return [
-      GetPage(
-        name: NamedRoute.initialRoute,
-        page: () => const SplashScreen(),
-      ),
-      GetPage(
-        name: NamedRoute.articleSinglePage,
-        page: () => const ArticleSinglePage(),
-      ),
-      GetPage(
-        name: NamedRoute.locationScreen,
-        page: () => const LocationScreen(),
-      ),
-      GetPage(
-        name: NamedRoute.mainScreen,
-        page: () => const MainScreen(),
-        binding: MainScreenBinding(),
-      ),
-      GetPage(
-        name: NamedRoute.articleListScreen,
-        page: () => const ArticleListScreen(title: MyStrings.allBossFights),
-      ),
-      GetPage(
-        name: NamedRoute.locationListScreen,
-        page: () =>
-            const LocationListScreen(title: MyStrings.allLocationsTitle),
-      ),
-      GetPage(
-        name: NamedRoute.posterScreen,
-        page: () => const PosterScreen(),
-      ),
-      GetPage(
-        name: NamedRoute.categoryScreen,
-        page: () => const CategoryScreen(),
-        binding: MainScreenBinding(),
-      ),
-      GetPage(
-        name: NamedRoute.sourceScreen,
-        page: () => const SourcesScreen(),
-      ),
-    ];
-  }
+  Pages._();
+
+  static List<GetPage<dynamic>> getPages = [
+    GetPage(
+      name: NamedRoute.initialRoute,
+      page: () => const SplashScreen(),
+    ),
+    GetPage(
+      name: NamedRoute.articleSinglePage,
+      page: () => const ArticleSinglePage(),
+    ),
+    GetPage(
+      name: NamedRoute.locationScreen,
+      page: () => const LocationScreen(),
+    ),
+    GetPage(
+      name: NamedRoute.mainScreen,
+      page: () => const MainScreen(),
+      binding: MainScreenBinding(),
+    ),
+    GetPage(
+      name: NamedRoute.articleListScreen,
+      page: () => const ArticleListScreen(title: MyStrings.allBossFights),
+    ),
+    GetPage(
+      name: NamedRoute.locationListScreen,
+      page: () => const LocationListScreen(title: MyStrings.allLocationsTitle),
+    ),
+    GetPage(
+      name: NamedRoute.posterScreen,
+      page: () => const PosterScreen(),
+    ),
+    GetPage(
+      name: NamedRoute.categoryScreen,
+      page: () => const CategoryScreen(),
+      binding: MainScreenBinding(),
+    ),
+    GetPage(
+      name: NamedRoute.sourceScreen,
+      page: () => const SourcesScreen(),
+    ),
+  ];
 }

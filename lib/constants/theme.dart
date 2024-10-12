@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 class MyTheme {
-  ThemeData buildTheme() {
+  MyTheme._();
+  static ThemeData buildTheme() {
     return ThemeData(
       scaffoldBackgroundColor: Colors.transparent,
       textTheme: const TextTheme(

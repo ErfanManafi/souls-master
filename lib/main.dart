@@ -32,8 +32,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      theme: MyTheme().buildTheme(),
-      getPages: Pages().getPages(),
+      theme: MyTheme.buildTheme(),
+      getPages: Pages.getPages,
       locale: const Locale('fa'),
       initialRoute: NamedRoute.initialRoute,
       debugShowCheckedModeBanner: false,

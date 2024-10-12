@@ -67,7 +67,6 @@ class SourcesScreen extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                // Add an image or icon
                 Container(
                   width: 150,
                   height: 150,
@@ -87,7 +86,6 @@ class SourcesScreen extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 20),
-
                 Card(
                   elevation: 8,
                   shape: RoundedRectangleBorder(
